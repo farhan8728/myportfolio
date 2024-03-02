@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.animate-spin-custom {
+  animation: spin 40s linear infinite;
+  -webkit-animation: spin 40s linear infinite;
+}
+
+.slick-dots li button:before {
+  color: #4bffa5 !important;
+}
+
+.hero-mobile-menu-bg {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+a.active {
+  color: #4bffa5;
+}
+
+.swiper-pagination-bullet {
+  background: #4bffa5 !important;
+}
